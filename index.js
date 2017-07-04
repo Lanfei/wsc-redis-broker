@@ -24,3 +24,5 @@ Broker.prototype.publish = function (channel, message) {
 };
 
 util.inherits(Broker, EventEmitter);
+
+module.exports = Broker;

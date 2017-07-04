@@ -21,7 +21,7 @@ var server = wsc.createServer({
 
 ## API
 
-### new Broker();
+### new Broker()
 
 Return a redis broker instance. `new Broker()` accepts these arguments:
 
