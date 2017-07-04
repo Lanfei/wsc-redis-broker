@@ -20,9 +20,11 @@ Broker.prototype.unsubscribe = function (channel) {
 };
 
 Broker.prototype.publish = function (channel, message) {
-	this._subClient.publish(channel, message);
+	this._pubClient.publish(channel, message);
 };
 
 util.inherits(Broker, EventEmitter);
 
 module.exports = Broker;
+
+new Broker();
