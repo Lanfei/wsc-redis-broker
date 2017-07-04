@@ -1,0 +1,28 @@
+{
+  "name": "wsc-redis-broker",
+  "version": "1.0.0",
+  "description": "A redis broker for ws-cluster",
+  "main": "index.js",
+  "dependencies": {
+    "redis": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wscluster/wsc-redis-broker.git"
+  },
+  "keywords": [
+    "websocket",
+    "ws",
+    "cluster"
+  ],
+  "author": "Lanfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wscluster/wsc-redis-broker/issues"
+  },
+  "homepage": "https://github.com/wscluster/wsc-redis-broker#readme"
+}
