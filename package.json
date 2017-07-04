@@ -1,7 +1,7 @@
 {
   "name": "wsc-redis-broker",
   "version": "1.0.1",
-  "description": "A redis broker for ws-cluster",
+  "description": "A Redis broker for ws-cluster.",
   "main": "index.js",
   "dependencies": {
     "redis": "^2.2.5"
