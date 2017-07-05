@@ -1,18 +1,18 @@
-# wsc-redis-broker
+# wsc-redis
 
 A redis broker for [ws-cluster](https://github.com/wscluster/ws-cluster). It allows you to scale `ws-cluster` horizontally across multiple machines.
 
 ## Installation
 
 ```bash
-$ npm install wsc-redis-broker
+$ npm install wsc-redis --save
 ```
 
 ## Usage
 
 ```js
 var wsc = require('ws-cluster');
-var Broker = require('wsc-redis-broker');
+var Broker = require('wsc-redis');
 
 var server = wsc.createServer({
 	broker: new Broker(6379, 'localhost')
